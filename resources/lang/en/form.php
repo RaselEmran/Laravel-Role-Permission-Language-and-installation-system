@@ -1,0 +1,31 @@
+<?php
+
+return [
+	'name' => 'Name',
+	'user_name' => 'User Name',
+	'branch_no' => 'Branch No.',
+	'branch_name' => 'Branch Name',
+	'import' => 'Import File',
+	'location_id' => 'Location Id',
+	'landmark' => 'Landmark',
+	'city' => 'City',
+	'zip_code' => 'Zip Code',
+	'state' => 'State',
+	'country' => 'Country',
+	'mobile_no' => 'Mobile No',
+	'alternate_mobile_no' => 'Alternate Mobile',
+	'email' => 'Email',
+	'website' => 'Website',
+	'logo' => 'Logo',
+	'favicon' => 'Favicon',
+	'status' => 'Status',
+	'description' => 'Description',
+	'options' => 'Options',
+	'country_name' => 'Country Name',
+	'state_name' => 'State Name',
+	'city_name' => 'City Name',
+	'area_name' => 'Area Name',
+	'sortname' => 'Short Name',
+	'phonecode' => 'Phone Code',
+
+];

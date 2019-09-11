@@ -1,0 +1,2 @@
+<a href="{{ route('admin.user.role.edit',$model->id) }}" class="btn btn-info" title="{{ _lang('edit_permission') }}" data-popup="tooltip" data-placement="bottom"><i class="fa fa-pencil-square-o"></i></a>
+<a href="#" id="delete_item" data-id ="{{$model->id}}" data-url="{{route('admin.user.role.delete',$model->id) }}" class="btn btn-danger" title="{{ _lang('delete_permission') }}" data-popup="tooltip" data-placement="bottom"><i class="fa fa-trash"></i></a>
