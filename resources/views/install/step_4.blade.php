@@ -10,8 +10,8 @@
 					
 			<div class="col-md-12">
 			  <div class="form-group">
-				<label class="control-label">School Name</label>						
-				<input type="text" class="form-control" name="school_name" required>
+				<label class="control-label">Company Name</label>						
+				<input type="text" class="form-control" name="company_name" required>
 			  </div>
 			</div>
 			
@@ -48,7 +48,9 @@
 				<label class="control-label">Timezone</label>						
 				<select class="form-control select2" name="timezone" required>
 				<option value="">Select One</option>
-				{{ create_timezone_option() }}
+				  @foreach (tz_list() as $key=> $time)
+                        <option  value="{{$time['zone']}}">{{ $time['diff_from_GMT'] . ' - ' . $time['zone']}}</option>
+                        @endforeach
 				</select>
 			  </div>
 			</div>
